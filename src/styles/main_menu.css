@@ -1,0 +1,22 @@
+.maintable {
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-around;
+    align-items: center;
+    margin-left : 15em; 
+    margin-right : 15em;
+    margin-top : 5em;
+  
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 4em;
+    background-color: #F0DFC5;
+    width : 12em;
+    height : auto; 
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}

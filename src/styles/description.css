@@ -1,0 +1,20 @@
+.container{
+    background-color: #CE881D ;
+    height : 70vh;
+    display : flex; 
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.texte{
+    
+    width: 40em;
+    margin-left: 14em;
+    font-size : 22px;
+    text-align: justify;
+}
+
+h3{
+    margin-left : 16em
+}
