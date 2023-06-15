@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import '../styles/banner.css'
 
 function Banner (){
@@ -9,7 +10,7 @@ function Banner (){
 
         <div className='menu'>
         <p>Menu Principal</p>
-        <p>Bars</p>
+        <p><Link to='/bars'>Bars</Link></p>
         <p>Commerces</p>
         <p>Restaurants</p>
         <p>Culture</p>

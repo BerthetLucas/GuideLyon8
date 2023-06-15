@@ -1,23 +1,18 @@
 
-import Banner from './components/banner.js'
-import Description from './components/description.js'
-import Ligne from './components/ligne.js'
-import MainMenu from './components/main_menu.js'
-import BasDePagePrincipale from './components/illu.js'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import HomePage from "./components/mainpages/homePage.js"
+import Bars from "./components/mainpages/bars.js"
 
 function App() {
-return (
-  <div>
-<Banner />
-<Ligne />
-<MainMenu />
-<Description />
-<BasDePagePrincipale />
-
-  </div>
-)
-
+  return (
+    <Router>
+      <Routes>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/bars" component={Bars} />
+      </Routes>
+    </Router>
+  )
 }
+
 
 export default App
