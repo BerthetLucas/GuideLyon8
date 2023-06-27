@@ -7,7 +7,7 @@ import BasDePagePrincipale from '../illu.js'
 
 function HomePage() {
 return (
-  <div>
+<div>
 <Banner />
 <Ligne />
 <MainMenu />
