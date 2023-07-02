@@ -9,11 +9,11 @@ function Banner (){
         <h1 className='title'>Le guide de la vie à Lyon 8</h1>
 
         <div className='menu'>
-        <p><Link to='/'>Menu Principal</Link></p>
-        <p><Link to='/bars'>Bars</Link></p>
-        <p><Link to='/commerces'>Commerces</Link></p>
-        <p><Link to='/restaurants'>Restaurants</Link></p>
-        <p><Link to='/culture'>Culture</Link></p>
+        <p><Link to='/' className='menu-liens'>Menu Principal</Link></p>
+        <p><Link to='/bars' className='menu-liens'>Bars</Link></p>
+        <p><Link to='/commerces' className='menu-liens'>Commerces</Link></p>
+        <p><Link to='/restaurants' className='menu-liens'>Restaurants</Link></p>
+        <p><Link to='/culture' className='menu-liens'>Culture</Link></p>
   
         </div>
         </div>  

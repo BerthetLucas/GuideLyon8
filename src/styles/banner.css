@@ -13,12 +13,21 @@
     justify-content: space-between;
     gap : 5em; 
     margin-left : 3em; 
-   
 
 }
 
 .title {
     margin-right : 3em
+}
+
+.menu-liens {
+    text-decoration: none;
+    color: black;
+    font-style : bold; 
+    border : 1px dotted black; 
+    border-radius : 20px;
+    padding : 0.3em;
+
 }
 
 
