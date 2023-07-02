@@ -21,3 +21,20 @@ h2 {
     border-radius: 25px;
 
 }
+
+
+@media screen and (max-width : 1050px){
+
+    .maintable {
+        display: none;
+        flex-direction: raw;
+        justify-content: space-around;
+        align-items: center;
+        margin-left : 0em; 
+        margin-right : 0em;
+        margin-top : 5em;
+      
+    
+    }
+    
+}

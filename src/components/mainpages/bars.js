@@ -1,10 +1,17 @@
+import Banner from '../banner.js'
+import Ligne from '../ligne.js'
+import BarList from '../barList.js'
 
 function Bars (){
-    return(
-        <div>
-            <h1>Bars</h1>
-        </div>
+    return (
+    <div>
+    <Banner />
+    <Ligne />
+    <BarList />
+
+    </div>
     )
-}
+    
+    }
 
 export default Bars

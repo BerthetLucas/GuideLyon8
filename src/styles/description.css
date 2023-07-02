@@ -4,17 +4,15 @@
     display : flex; 
     flex-direction: column;
     justify-content: center;
+    margin-top : 1em
 
 }
 
-.texte{
-    
-    width: 40em;
-    margin-left: 14em;
-    font-size : 22px;
+.description-content {
+
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: justify;
-}
-
-h3{
-    margin-left : 16em
+    display: flex;
+    flex-wrap: wrap;
 }

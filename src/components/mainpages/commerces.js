@@ -1,14 +1,15 @@
 
-
-
-
+import Banner from '../banner.js'
+import Ligne from '../ligne.js'
 
 
 function Commerces (){
-return (
-    <h1>Commerces</h1>
-)
-
+    return (
+        <div>
+        <Banner />
+        <Ligne />
+        </div>
+        )
 }
 
 export default Commerces
