@@ -1,4 +1,5 @@
-import restaurants from '../assets/data/commercesListData'
+import restaurants from '../assets/data/restaurantListData'
+import "../styles/elements.css"
 
 function RestaurantList() {
 
@@ -6,11 +7,11 @@ function RestaurantList() {
         <div>
             {restaurants.map((restaurant, idr) => (
 
-                <div key={idr} className="restaurant-label">
+                <div key={idr} className="element-label">
                     <h3>{restaurant.name}</h3>
                     <p>Adresse : {restaurant.adress}</p>
-                    <p className='restaurant-description'>Description : {restaurant.description}</p>
-                    <img className ="photo-bar" src ={restaurant.photo} alt={restaurant.name} />
+                    <p className='element-description'>Description : {restaurant.description}</p>
+                    <img className ="element-photo" src ={restaurant.photo} alt={restaurant.name} />
                 </div>         
             ))}
         </div>

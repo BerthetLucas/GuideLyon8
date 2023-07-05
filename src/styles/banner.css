@@ -1,4 +1,4 @@
-.ban{
+.desktop-ban{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -62,7 +62,7 @@
 
   @media screen and (max-width : 740px){
     
-    .ban{
+    .desktop-ban{
        
         display: flex;
         flex-direction: column;
@@ -71,20 +71,24 @@
         justify-items: center;
         margin-top: 4em;
         margin-bottom: 3.5em;
+        margin-left: 1em;
+        margin-right : 1em
     }
     
     
     .menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        gap : 0; 
+        flex-wrap: wrap;
+        gap : 1em; 
         margin-left : 0em; 
        
     
     }
     
     .title {
-        margin-right : 0em
+        margin-right : 2em;
+        margin-left : 2em
 
   }}

@@ -1,0 +1,22 @@
+.element-label {
+    margin-top : 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 2em;
+    border-radius : 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #F0DFC5;
+    box-shadow: 20px 26px 26px -2px rgba(0,0,0,0.1);
+}
+
+.element-photo {
+    width : 65%;
+    border-radius: 20px;
+
+}
+
+.element-description{
+    text-align: justify;
+}
