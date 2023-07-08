@@ -24,7 +24,7 @@ const cultures = [
   {
     idculture: "2",
     name: "Maison de la Danse",
-    adress: "Rue du Premier Film, 69008 Lyon",
+    adress: "Maison de la danse, 8 Av. Jean Mermoz, 69008 Lyon",
     description:
       "Lieu entièrement dédié à la danse, aussi bien contemporaine que classique, et destinée à un public varié.",
     photo: dance,

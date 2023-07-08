@@ -17,8 +17,14 @@
 
 }
 
-.element-description{
+.element-label p{
     text-align: justify;
+    font-size : 1.3em;
+}
+
+.element-label h3{
+    text-align: left;
+    font-size : 2em;
 }
 
 figcaption{

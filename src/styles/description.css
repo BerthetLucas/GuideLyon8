@@ -15,4 +15,13 @@
     text-align: justify;
     display: flex;
     flex-wrap: wrap;
+    font-size : 1.3em;
+}
+
+@media screen and (max-width : 740px){
+
+    .description-content {
+        font-size : 1em;
+    }
+    
 }
