@@ -1,4 +1,4 @@
-import KF from '../KF.jpeg'
+import KF from '../KF.jpg'
 
 const cultures = [
 

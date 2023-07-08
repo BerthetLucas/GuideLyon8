@@ -10,7 +10,10 @@ function CultureList (){
                      <h3>{culture.name}</h3>
                     <p>Adresse : {culture.adress}</p>
                     <p className='element-description'>Description : {culture.description}</p>
-                    <img className ="element-photo" src ={culture.photo} alt={culture.name} />
+        
+                    <img className ="element-photo" src ={culture.photo} alt={culture.name}/>
+                    <figcaption><em>Photo libre de droit en provenance de Pixabay à but d'illustration, ne reflète pas le lieu réel.</em></figcaption>
+               
                 </div>
             )
             )}

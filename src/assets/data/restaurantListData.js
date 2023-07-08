@@ -1,10 +1,10 @@
-import KF from "../KF.jpeg";
-import traiteur from"../traiteurSassoun.jpeg";
-import senchiki from "../Senkichi.jpeg"
-import chef from "../chef.jpeg"
-import casa from "../casaLula.jpeg"
-import boispizza from "../boisPizza.jpeg"
-import cotecours from "../cotecours.jpeg"
+
+import traiteur from"../traiteurSassoun.jpg";
+import senchiki from "../Senkichi.jpg"
+import chef from "../chef.jpg"
+import casa from "../casaLula.jpg"
+import boispizza from "../boisPizza.jpg"
+import cotecours from "../cotecours.jpg"
 
 const restaurants = [
   {

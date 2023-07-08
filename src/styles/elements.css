@@ -6,17 +6,22 @@
     border-radius : 20px;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-items: left;
     background-color: #F0DFC5;
     box-shadow: 20px 26px 26px -2px rgba(0,0,0,0.1);
 }
 
 .element-photo {
-    width : 65%;
+    width : 70%;
     border-radius: 20px;
 
 }
 
 .element-description{
     text-align: justify;
+}
+
+figcaption{
+    text-align: justify;
+    font-size: 0.7em;
 }

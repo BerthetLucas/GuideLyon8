@@ -1,8 +1,8 @@
-import restaurant1 from '../restaurant1.jpg'
-import bistrotAutrement from '../bistrotAutrement.jpeg'
-import ninkasi from '../ninkasi.jpeg'
-import KF from '../KF.jpeg'
-import redhouse from '../redhouse.jpeg'
+import restaurant1 from '../restaurant1.jpeg'
+import bistrotAutrement from '../bistrotAutrement.jpg'
+import ninkasi from '../ninkasi.jpg'
+import KF from '../KF.jpg'
+import redhouse from '../redhouse.jpg'
 
 const bars = [
 

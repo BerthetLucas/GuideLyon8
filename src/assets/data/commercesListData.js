@@ -1,4 +1,7 @@
-import KF from "../KF.jpeg";
+import cave from "../caveMonplaisir.jpg"
+import pralus from "../pralus.jpg"
+import marcheMP from '../marcheMP.jpg'
+import marcheEU from "../marcheEU.jpg"
 
 const commerces = [
   {
@@ -6,7 +9,7 @@ const commerces = [
     name: "Pâtisserie Chocolaterie Pralus Lyon Monplaisir",
     adress: "103 Av. des Frères Lumière, 69008 Lyon",
     description: "Chaîne de patisserie emblématique de Lyon, essayer la brioche au praline c'est l'adopter !",
-    photo: KF,
+    photo: pralus,
   },
 
   {
@@ -14,7 +17,7 @@ const commerces = [
     name: "CAVE MONPLAISIR",
     adress: "36 Rue Villon, 69008 Lyon",
     description: "Super cave à vin où le caviste est de bon conseil, il y en a pour tout les budgets",
-    photo: KF,
+    photo: cave,
   },
 
   {
@@ -22,7 +25,7 @@ const commerces = [
     name: "Marché alimentaire Ambroise Courtois",
     adress: "Place Ambroise Courtois 69008 Lyon",
     description: "Marché alimentaire, coup de coeur pour le traiteur asiatique et ses samousas",
-    photo: KF,
+    photo: marcheMP,
   },
 
   {
@@ -30,7 +33,7 @@ const commerces = [
     name: "Marché alimentaire des Etats-Unis",
     adress: "Place du 8 Mai 1945 69008 Lyon",
     description: "Grand marché alimentaire, prix abordables !",
-    photo: KF,
+    photo: marcheEU,
   },
 
 
