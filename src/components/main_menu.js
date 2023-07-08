@@ -11,16 +11,22 @@ function MainMenu() {
           </Link>
         </h2>
         <h2>
-          <Link to="/bars" className="main-menu-lien">Sortir boire un verre</Link>
+          <Link to="/bars" className="main-menu-lien">
+            Sortir boire un verre
+          </Link>
         </h2>
       </div>
 
       <div>
         <h2>
-          <Link to="/culture" className="main-menu-lien">Culture</Link>
+          <Link to="/culture" className="main-menu-lien">
+            Culture
+          </Link>
         </h2>
         <h2>
-          <Link to="/commerces" className="main-menu-lien">Shopping</Link>
+          <Link to="/commerces" className="main-menu-lien">
+            Shopping
+          </Link>
         </h2>
       </div>
     </div>

@@ -2,6 +2,7 @@ import cave from "../caveMonplaisir.jpg"
 import pralus from "../pralus.jpg"
 import marcheMP from '../marcheMP.jpg'
 import marcheEU from "../marcheEU.jpg"
+import cocotte from "../cocotte.jpg"
 
 const commerces = [
   {
@@ -37,9 +38,13 @@ const commerces = [
   },
 
 
-  
-
-
+  {
+    idc: "4",
+    name: "La P'tite Cocotte Monplaisir",
+    adress: "115 Av. des Frères Lumière, 69008 Lyon",
+    description: "Commerce vendant des articles pour la cuisine qui sont originaux, il y en a pour tous les prix, on adore leurs article faisant références à des rues de Monplaisir",
+    photo: cocotte,
+  },
 
 
 
