@@ -3,6 +3,7 @@ import Description from '../description.js'
 import Ligne from '../ligne.js'
 import MainMenu from '../main_menu.js'
 import BasDePagePrincipale from '../illu.js'
+import Footer from '../footer.js'
 
 
 function HomePage() {
@@ -13,7 +14,7 @@ return (
 <MainMenu />
 <Description />
 <BasDePagePrincipale />
-
+<Footer />
 </div>
 )
 

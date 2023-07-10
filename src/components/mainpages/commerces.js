@@ -2,6 +2,7 @@
 import Banner from '../banner.js'
 import Ligne from '../ligne.js'
 import CommerceList from '../commercesList.js'
+import Footer from '../footer.js'
 
 
 function Commerces (){
@@ -10,6 +11,7 @@ function Commerces (){
         <Banner />
         <Ligne />
         <CommerceList />
+        <Footer />
         </div>
         )
 }

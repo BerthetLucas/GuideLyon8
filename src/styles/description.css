@@ -1,10 +1,10 @@
-.container{
+.cadre-description{
     background-color: #CE881D ;
     height : 70vh;
     display : flex; 
     flex-direction: column;
     justify-content: center;
-    margin-top : 1em
+    margin-top : 1em;
 
 }
 

@@ -1,3 +1,4 @@
+
 .maintable {
   display: flex;
   flex-direction: raw;
@@ -8,25 +9,6 @@
   margin-top: 10em;
 }
 
-.main-menu-lien {
-  text-decoration: none;
-  color : black;
-}
-
-.main-menu-lien:hover {
-  opacity : 50%;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 4em;
-  background-color: #f0dfc5;
-  width: 12em;
-  height: auto;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border-radius: 25px;
-}
 
 @media screen and (max-width: 1050px) {
   .maintable {

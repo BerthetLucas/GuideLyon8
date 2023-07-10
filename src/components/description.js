@@ -2,7 +2,7 @@ import "../styles/description.css";
 
 function Description() {
   return (
-    <div className="container">
+    <div className="cadre-description">
       <div className="description-content">
         <h3>A propos de ce blog</h3>
 
