@@ -5,6 +5,8 @@ import Bars from './components/mainpages/bars.js'
 import Commerces from './components/mainpages/commerces.js'
 import Restaurant from './components/mainpages/restaurants.js'
 import Culture from './components/mainpages/culture.js'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 
 function App() {
   return (

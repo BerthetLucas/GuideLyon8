@@ -9,3 +9,11 @@
 .imagePlace{
     width: 100%;
 }
+
+@media screen and (max-width : 740px){
+
+    .main {
+        height : 35vh;
+    }
+
+}
