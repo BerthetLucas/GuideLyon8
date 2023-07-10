@@ -25,8 +25,7 @@ function Banner() {
               <NavLink
                 className="nav-link active"
                 aria-current="page"
-                to="/bars"
-              >
+                to="/bars">
                 Bars
               </NavLink>
             </li>
