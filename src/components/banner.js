@@ -6,7 +6,7 @@ function Banner() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">
-          Home
+          Le Guide de Lyon 8
         </NavLink>
         <button
           className="navbar-toggler"
