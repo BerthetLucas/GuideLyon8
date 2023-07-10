@@ -5,6 +5,7 @@ import Bars from './components/mainpages/bars.js'
 import Commerces from './components/mainpages/commerces.js'
 import Restaurant from './components/mainpages/restaurants.js'
 import Culture from './components/mainpages/culture.js'
+import Therm from './components/mainpages/legale.js'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/commerces' element={<Commerces />}/>
         <Route path='/restaurants' element={<Restaurant />}/>
         <Route path='/culture' element={<Culture />}/>
+        <Route path='/legal' element={<Therm />}/>
       </Routes>
     </Router>
   )

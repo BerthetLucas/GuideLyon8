@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <img src={logo} className="logo" alt="logo du site"></img>
 
-      <ul className="footer-list">
+      <ul className="footer-list mt-4">
         <li className="footer-list-element">
           <Link to="/bars" className="footer-link">Bars</Link>
         </li>

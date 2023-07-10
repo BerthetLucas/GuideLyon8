@@ -4,7 +4,7 @@ import Legal from "../mentionlegales.js"
 import Footer from '../footer.js'
 
 
-function Culture (){
+function Therm (){
     return (
 
         <div>
@@ -16,4 +16,4 @@ function Culture (){
     )
 }
 
-export default Culture
+export default Therm
