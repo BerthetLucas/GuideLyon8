@@ -1,15 +1,17 @@
-import cave from "../caveMonplaisir.jpg"
-import pralus from "../pralus.jpg"
-import marcheMP from '../marcheMP.jpg'
-import marcheEU from "../marcheEU.jpg"
-import cocotte from "../cocotte.jpg"
+import cave from "../caveMonplaisir.jpg";
+import pralus from "../pralus.jpg";
+import marcheMP from "../marcheMP.jpg";
+import marcheEU from "../marcheEU.jpg";
+import cocotte from "../cocotte.jpg";
+import frip from "../friperie.jpg";
 
 const commerces = [
   {
     idc: "0",
     name: "Pâtisserie Chocolaterie Pralus Lyon Monplaisir",
     adress: "103 Av. des Frères Lumière, 69008 Lyon",
-    description: "Chaîne de patisserie emblématique de Lyon, essayer la brioche au praline c'est l'adopter !",
+    description:
+      "Chaîne de patisserie emblématique de Lyon, essayer la brioche aux pralines c'est l'adopter !",
     photo: pralus,
   },
 
@@ -17,7 +19,8 @@ const commerces = [
     idc: "1",
     name: "CAVE MONPLAISIR",
     adress: "36 Rue Villon, 69008 Lyon",
-    description: "Super cave à vin où le caviste est de bon conseil, il y en a pour tout les budgets",
+    description:
+      "Super cave à vin où le caviste est de bon conseil, il y en a pour tous les budgets.",
     photo: cave,
   },
 
@@ -25,7 +28,8 @@ const commerces = [
     idc: "2",
     name: "Marché alimentaire Ambroise Courtois",
     adress: "Place Ambroise Courtois 69008 Lyon",
-    description: "Marché alimentaire, coup de coeur pour le traiteur asiatique et ses samousas",
+    description:
+      "Marché alimentaire, coup de coeur pour le traiteur asiatique et ses samousas.",
     photo: marcheMP,
   },
 
@@ -37,17 +41,23 @@ const commerces = [
     photo: marcheEU,
   },
 
-
   {
     idc: "4",
     name: "La P'tite Cocotte Monplaisir",
     adress: "115 Av. des Frères Lumière, 69008 Lyon",
-    description: "Commerce vendant des articles pour la cuisine qui sont originaux, il y en a pour tous les prix, on adore leurs article faisant références à des rues de Monplaisir",
+    description:
+      "Commerce vendant des articles pour la cuisine qui sont originaux, il y en a pour tous les prix, on adore leurs article faisant références à des rues de Monplaisir",
     photo: cocotte,
   },
 
-
-
+  {
+    idc: "5",
+    name: "Ding Fring Lyon",
+    adress: "320 Av. Berthelot, 69008 Lyon",
+    description:
+      "Friperie solidaire proposant vêtements et accessoires tendance ou vintage à prix réduits pour tous les âges.",
+    photo: frip,
+  },
 ];
 
 export default commerces;

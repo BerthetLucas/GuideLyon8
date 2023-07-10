@@ -11,7 +11,7 @@ const restaurants = [
     name: "Monplaisir Côté Cour",
     adress: "64 Av. des Frères Lumière, 69008 Lyon",
     description:
-      "Restaurant avec terrasse extérieur très sympa, la nourriture y est particulière bonne dans l'esprit bistrot français. La salle intérieur est très bien décorée",
+      "Restaurant avec terrasse extérieure, la nourriture y est particulière bonne. C'est dans l'esprit bistrot français. La salle intérieur est joliement décorée.",
     photo: cotecours,
   },
 
@@ -20,7 +20,7 @@ const restaurants = [
     name: "Traiteur Sassoun Monplaisir",
     adress: "73 Av. des Frères Lumière, 69008 Lyon",
     description:
-      "Traiteur libannais, ils propose de nombreuses spécialitées qui sont toutes plus gouteuses les unes que les autres. A noter une formule du midi très accessible en prix",
+      "Traiteur libannais, l'établissement propose de nombreuses spécialitées qui sont toutes plus gouteuses les unes que les autres. A noter une formule du midi très accessible en prix.",
     photo: traiteur,
   },
 
@@ -37,7 +37,7 @@ const restaurants = [
     name: "CHËF - berliner kebap | LUMIÈRE",
     adress: "123 Av. des Frères Lumière, 69008 Lyon",
     description:
-      "Le meilleur kebab de France s'est implanté à Lyon 8. Le titre n'est pas volé c'est clairement un régale, tout simplement un sans faute",
+      "Le meilleur kebab de France s'est implanté à Lyon 8. Le titre n'est pas volé, c'est un vrai régale, tout simplement un sans faute.",
     photo: chef,
   },
 
@@ -46,7 +46,7 @@ const restaurants = [
     name: "CASA LULA",
     adress: "3 Rue Edouard Nieuport, 69008 Lyon",
     description:
-      "Petit nouveau entre le Bachut et Mermoz, pas encore testé mais la carte donne envie, c'est simple c'est clair. Ils proposent de la nourriture Italienne et possèdent une terrase sympa avec un boulodrome",
+      "Petit nouveau entre le Bachut et Mermoz, pas encore testé mais la carte donne envie, c'est simple c'est clair. Ils proposent de la nourriture Italienne et l'établissement possède une grande terrase avec un boulodrome.",
     photo: casa,
   },
 
@@ -55,7 +55,7 @@ const restaurants = [
     name: "Bois Pizza",
     adress: "26 Rue Thomas Blanchet, 69008 Lyon",
     description:
-      "Exellentes pizzas, patron super sympa un de mes bons plans pour un dimanche soir de qualité",
+      "Exellentes pizzas, patron super sympa un de mes bons plans pour un dimanche soir de qualité.",
     photo: boispizza,
   },
 ];
